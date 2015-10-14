@@ -1,3 +1,3 @@
 # Elmar
 Readme
-imma gonna do a site that sells shit from china to other countries with ease
+ég ætla að gera síða sem sýnir fótbolta scores with ease 
