@@ -17,8 +17,8 @@
 				error: function (xhr, status) {
 					console.log("it didn't worked")
 				}
-				var obj = jQuery.parseJSON( '{ "name": "John" }' );
-				alert( obj.name === "John" );
+				obj = JSON.parse(response);
+				alert(obj.count);
 			});</script>
 			<div class="panel panel-default">
 				<div class="panel-heading">Home</div>
