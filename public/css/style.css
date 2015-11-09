@@ -15,3 +15,17 @@
 #right {
     float:right;
 }
+
+.container2 {
+    width:100%;
+    border:1px solid #d3d3d3;
+}
+.container2 div {
+    width:100%;
+}
+.container2 .header {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}

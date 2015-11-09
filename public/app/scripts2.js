@@ -9,7 +9,7 @@ success: function (response) {
   for (var i = 0; i < coll.length; i++) {
     var what1 = coll[i].time.text;
     var what2 = what1.substring(0, 5);
-    $("#allData").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><h5 id='center'>"+ what2 +"</h5><h5 id='center'>"+ coll[i].date +"</h5><div id='container'>" + "<div id='left'>" + coll[i].team1.text + "</div><div id='right' '>" + coll[i].team2.text + "</div><div id='center'>VS</div></div></div></div></div>");
+    $("#allData").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><div id='container'>" +"<div id='left'>" + coll[i].team1.text + "</div><div id='right'>" + coll[i].team2.text + "</div><div id='center'><h4>"+ what2 +"</h4></div></div></div><span class='glyphicon glyphicon-menu-down'></span></div></div>");
 
   }
 
@@ -17,4 +17,5 @@ success: function (response) {
 error: function (xhr, status) {
   console.log("it didn't worked")
 }
+
 });
