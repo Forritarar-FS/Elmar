@@ -1,0 +1,8 @@
+1.Week
+created login and Register
+2.Week
+created api's
+3.week
+worked on the infostructure 
+4.week
+printing data and working with api's
