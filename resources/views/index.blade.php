@@ -7,7 +7,7 @@
 			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 			<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
 			<script type="text/javascript" src="{{ asset('app/script.js') }}"></script>
-			<h1>Welcome</h1>
+			<h1 align="center">Welcome {{ Auth::user()->name }}</h1>
 		</div>
 	</div>
 </div>
