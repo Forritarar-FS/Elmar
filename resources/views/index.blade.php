@@ -5,26 +5,9 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-			<script>
-				$.ajax({
-				url:"https://www.kimonolabs.com/api/9j7lotp6?apikey=GuzWad3GJVgnt2TfuJMJmeANHfL7BOj0",
-				crossDomain: true,
-				dataType: "jsonp",
-				success: function (response) {
-					console.log("it worked")
-					console.log(response)
-				},
-				error: function (xhr, status) {
-					console.log("it didn't worked")
-				}
-				obj = JSON.parse(response);
-				alert(obj.count);
-			});</script>
-			<div class="panel panel-default">
-				<div class="panel-heading">Home</div>
-				<div class="panel-body">
-				</div>
-			</div>
+			<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
+			<script type="text/javascript" src="{{ asset('app/script.js') }}"></script>
+			<h1>Welcome</h1>
 		</div>
 	</div>
 </div>
