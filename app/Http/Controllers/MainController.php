@@ -37,5 +37,10 @@ class MainController extends Controller {
 		return view('upcoming');
 	}
 
+	public function live()
+	{
+		return view('live');
+	}
+
 
 }
