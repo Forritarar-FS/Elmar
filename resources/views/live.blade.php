@@ -8,6 +8,7 @@
 			<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
 			<script type="text/javascript" src="{{ asset('app/script3.js') }}"></script>
 					<h2 id="allData"></h2>
+
 		</div>
 	</div>
 </div>

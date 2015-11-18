@@ -5,11 +5,13 @@ dataType: "jsonp",
 success: function (response) {
   console.log("it worked")
   console.log(response)
+  var id = 18666;
+  var stream = "<iframe src='http://player.twitch.tv/?channel='" + id + "' frameborder='0' scrolling='no' height='378' width='620'></iframe>" ;
   var coll = response.results.collection1;
   for (var i = 0; i < coll.length; i++) {
     var what1 = coll[i].time.text;
     var what2 = what1.substring(0, 5);
-    $("#allData").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><div id='container'>" +   "<div id='left'>" + coll[i].team1.text + "</div><div id='left'>"+ coll[i].team1score +"</div><div id='right'>" + coll[i].team2.text + "</div><div id='center'><h4>"+ what2 +"</h4></div></div></div><span class='' aria-hidden='true'></span></div></div>");
+    $("#allData").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><div id='container'>" +   "<div id='left'>" + coll[i].team1.text + "</div><div id='left'>"+ coll[i].team1score +"</div><div id='right'>" + coll[i].team2.text + "</div><div id='center'><h4>"+ what2 +"</h4></div></div></div><span class='' aria-hidden='true'></span></div></div><div>"+ stream +"</div>");
 
   }
 
