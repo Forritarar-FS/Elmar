@@ -11,7 +11,11 @@ success: function (response) {
   for (var i = 0; i < coll.length; i++) {
     var what1 = coll[i].time.text;
     var what2 = what1.substring(0, 5);
+<<<<<<< HEAD
     $("#allData").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><div id='container'>" +   "<div id='left'>" + coll[i].team1.text + "</div><div id='left'>"+ coll[i].team1score +"</div><div id='right'>" + coll[i].team2.text + "</div><div id='center'><h4>"+ what2 +"</h4></div></div></div><span class='' aria-hidden='true'></span></div></div><div>"+ stream +"</div>");
+=======
+    $("#allData2").append("<div class='panel panel-default'><div class='panel-heading'><div class='panel-body'><div id='container'>" +   "<div id='left'>" + coll[i].team1.text + "</div><div id='left'>"+ coll[i].team1score +"</div><div id='right'>" + coll[i].team2.text + "</div><div id='center'><h4>"+ what2 +"</h4></div></div></div><span class='' aria-hidden='true'></span></div></div>");
+>>>>>>> origin/master
 
   }
 
