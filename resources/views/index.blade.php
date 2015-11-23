@@ -13,8 +13,6 @@
 			<div class="container" align="center">
   			<div class="jumbotron" align="center">
     			<h1 align="center">Welcome {{ Auth::user()->name }}</h1>
-					<h3 align="center">Live/Upcoming Matches</h3>
-					<br>
 					<h3>Live Matches</h3>
 						<p align="center" id="allData2"></p>
 					<br>
