@@ -35,7 +35,8 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/">Home</a></li>
 					<li><a href="/finished">Finished Matches</a></li>
-					<li><a href="/upcoming">Upcoming/Live Matches</a></li>
+					<li><a href="/upcoming">Upcoming Matches</a></li>
+					<li><a href="/live">Live Matches</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

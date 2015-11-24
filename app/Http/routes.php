@@ -15,6 +15,7 @@ Route::get('/', 'MainController@index');
 Route::get('index', 'MainController@index');
 Route::get('upcoming', 'MainController@upcoming');
 Route::get('finished', 'MainController@finished');
+Route::get('live', 'MainController@live');
 
 Route::get('general', 'MainController@finshed');
 
