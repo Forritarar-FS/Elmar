@@ -50,8 +50,6 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/index">CS:GO</a></li>
 					<li><a href="/dota2">Dota 2</a></li>
-					<li><a href="/lol">LoL</a></li>
-					<li><a href="/hearthstone">Hearthstone</a></li>
 				</ul>
 
 
