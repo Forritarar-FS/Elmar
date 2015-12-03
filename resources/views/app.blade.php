@@ -11,6 +11,21 @@
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
+	<link href="/vendor/confer/css/confer.css" rel="stylesheet">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	@include('confer::confer')
+
+	<!-- Scripts -->
+	<script src="/js/pusher.min.js"></script>
+	<script src="/js/moment.min.js"></script>
+	<script src="//cdn.jsdelivr.net/emojione/1.4.0/lib/js/emojione.min.js"></script>
+	<script src="/vendor/confer/js/confer.js"></script>
+<!-- Test Scripts -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/pusher.min.js"></script>
+	<script src="/js/moment.min.js"></script>
+	@include('confer::js')
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -28,22 +43,36 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">CS:GO Matches</a>
+				<a class="navbar-brand" href="#">E-Sport Matches</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="/">Home</a></li>
-					<li><a href="/finished">Finished Matches</a></li>
-					<li><a href="/upcoming">Upcoming Matches</a></li>
-					<li><a href="/live">Live Matches</a></li>
+					<li><a href="/index">CS:GO</a></li>
+					<li><a href="/dota2">Dota 2</a></li>
+					<li><a href="/lol">LoL</a></li>
+					<li><a href="/hearthstone">Hearthstone</a></li>
 				</ul>
+
 
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
 						<li><a href="/auth/login">Login</a></li>
 						<li><a href="/auth/register">Register</a></li>
 					@else
+					<li>
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="position: relative;" id="messages_open_icon"><i class="fa fa-btn fa-envelope"></i></a>
+						<ul class="dropdown-menu">
+							<li style="width: 400px; min-height: 40px;">
+								<ul id="messages_holder_in_bar">
+
+									@include('confer::barconversationlist')
+
+								</ul>
+								<!-- Messages -->
+							</li>
+						</ul>
+					</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">

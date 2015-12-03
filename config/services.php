@@ -34,4 +34,10 @@ return [
 		'secret' => '',
 	],
 
+	'pusher' => [
+	  'public' => 'a14e2e36d258b703937c',
+	  'secret' => '29a6ba6c1fe53d7aa148',
+	  'app_id' => '158581',
+	],
+
 ];
