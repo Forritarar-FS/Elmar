@@ -3,8 +3,8 @@ created login and Register
 2.Week
 created api's
 3.week
-worked on the infostructure 
+worked on the info structure
 4.week
-dota 2 added and revawped the whole look
+dota 2 added and revamped the whole look
 5.week
 forum added
