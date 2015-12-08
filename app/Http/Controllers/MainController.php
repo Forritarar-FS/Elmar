@@ -27,19 +27,19 @@ class MainController extends Controller {
 		return view('index');
 	}
 
-	public function finished()
+	public function dota2()
 	{
-		return view('finished');
+		return view('dota2');
 	}
 
-	public function upcoming()
+	public function lol()
 	{
-		return view('upcoming');
+		return view('lol');
 	}
 
-	public function live()
+	public function hearthstone()
 	{
-		return view('live');
+		return view('hearthstone');
 	}
 
 
