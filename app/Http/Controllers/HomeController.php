@@ -28,9 +28,25 @@ class HomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
-	{
-		return view('home');
-	}
+	 public function csgo()
+ 	{
+ 		return view('csgo');
+ 	}
+
+ 	public function dota2()
+ 	{
+ 		return view('dota2');
+ 	}
+
+ 	public function lol()
+ 	{
+ 		return view('lol');
+ 	}
+
+ 	public function hearthstone()
+ 	{
+ 		return view('hearthstone');
+ 	}
+
 
 }

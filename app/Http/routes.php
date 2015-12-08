@@ -1,20 +1,13 @@
 <?php
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+
 Route::get('/','PostController@index');
 Route::get('/home',['as' => 'home', 'uses' => 'PostController@index']);
+//authentication
 Route::controllers([
  'auth' => 'Auth\AuthController',
  'password' => 'Auth\PasswordController',
 ]);
+// check for logged in user
 Route::group(['middleware' => ['auth']], function()
 {
  Route::get('new-post','PostController@create');
@@ -26,7 +19,14 @@ Route::group(['middleware' => ['auth']], function()
  Route::get('my-drafts','UserController@user_posts_draft');
  Route::post('comment/add','CommentController@store');
  Route::post('comment/delete/{id}','CommentController@distroy');
+ Route::get('csgo', 'HomeController@csgo');
+ Route::get('dota2', 'HomeController@dota2');
+ Route::get('lol', 'HomeController@lol');
+ Route::get('hearthstone', 'HomeController@hearthstone');
 });
+//users profile
 Route::get('user/{id}','UserController@profile')->where('id', '[0-9]+');
+// display list of posts
 Route::get('user/{id}/posts','UserController@user_posts')->where('id', '[0-9]+');
+// display single post
 Route::get('/{slug}',['as' => 'post', 'uses' => 'PostController@show'])->where('slug', '[A-Za-z0-9-_]+');

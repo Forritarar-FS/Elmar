@@ -1,0 +1,10 @@
+1.Week
+created login and Register
+2.Week
+created api's
+3.week
+worked on the infostructure 
+4.week
+dota 2 added and revawped the whole look
+5.week
+forum added
