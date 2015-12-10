@@ -1,0 +1,176 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	.gitattributes
+#	.gitignore
+#	app/Http/routes.php
+#	app/User.php
+#	composer.json
+#	composer.lock
+#	config/app.php
+#	config/services.php
+#	database/migrations/2014_10_12_000000_create_users_table.php
+#	database/seeds/DatabaseSeeder.php
+#	resources/views/app.blade.php
+#	resources/views/dota2.blade.php
+#	resources/views/welcome.blade.php
+#	week.txt
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 3 and 24 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .gitattributes
+#	modified:   .gitignore
+#	new file:   app/Http/Controllers/MainController.php
+#	modified:   app/Http/routes.php
+#	modified:   app/User.php
+#	new file:   auth.json
+#	new file:   components/moment/locale/af.js
+#	new file:   components/moment/locale/ar-ma.js
+#	new file:   components/moment/locale/ar-sa.js
+#	new file:   components/moment/locale/ar-tn.js
+#	new file:   components/moment/locale/ar.js
+#	new file:   components/moment/locale/az.js
+#	new file:   components/moment/locale/be.js
+#	new file:   components/moment/locale/bg.js
+#	new file:   components/moment/locale/bn.js
+#	new file:   components/moment/locale/bo.js
+#	new file:   components/moment/locale/br.js
+#	new file:   components/moment/locale/bs.js
+#	new file:   components/moment/locale/ca.js
+#	new file:   components/moment/locale/cs.js
+#	new file:   components/moment/locale/cv.js
+#	new file:   components/moment/locale/cy.js
+#	new file:   components/moment/locale/da.js
+#	new file:   components/moment/locale/de-at.js
+#	new file:   components/moment/locale/de.js
+#	new file:   components/moment/locale/el.js
+#	new file:   components/moment/locale/en-au.js
+#	new file:   components/moment/locale/en-ca.js
+#	new file:   components/moment/locale/en-gb.js
+#	new file:   components/moment/locale/eo.js
+#	new file:   components/moment/locale/es.js
+#	new file:   components/moment/locale/et.js
+#	new file:   components/moment/locale/eu.js
+#	new file:   components/moment/locale/fa.js
+#	new file:   components/moment/locale/fi.js
+#	new file:   components/moment/locale/fo.js
+#	new file:   components/moment/locale/fr-ca.js
+#	new file:   components/moment/locale/fr.js
+#	new file:   components/moment/locale/fy.js
+#	new file:   components/moment/locale/gl.js
+#	new file:   components/moment/locale/he.js
+#	new file:   components/moment/locale/hi.js
+#	new file:   components/moment/locale/hr.js
+#	new file:   components/moment/locale/hu.js
+#	new file:   components/moment/locale/hy-am.js
+#	new file:   components/moment/locale/id.js
+#	new file:   components/moment/locale/is.js
+#	new file:   components/moment/locale/it.js
+#	new file:   components/moment/locale/ja.js
+#	new file:   components/moment/locale/jv.js
+#	new file:   components/moment/locale/ka.js
+#	new file:   components/moment/locale/km.js
+#	new file:   components/moment/locale/ko.js
+#	new file:   components/moment/locale/lb.js
+#	new file:   components/moment/locale/lt.js
+#	new file:   components/moment/locale/lv.js
+#	new file:   components/moment/locale/me.js
+#	new file:   components/moment/locale/mk.js
+#	new file:   components/moment/locale/ml.js
+#	new file:   components/moment/locale/mr.js
+#	new file:   components/moment/locale/ms-my.js
+#	new file:   components/moment/locale/ms.js
+#	new file:   components/moment/locale/my.js
+#	new file:   components/moment/locale/nb.js
+#	new file:   components/moment/locale/ne.js
+#	new file:   components/moment/locale/nl.js
+#	new file:   components/moment/locale/nn.js
+#	new file:   components/moment/locale/pl.js
+#	new file:   components/moment/locale/pt-br.js
+#	new file:   components/moment/locale/pt.js
+#	new file:   components/moment/locale/ro.js
+#	new file:   components/moment/locale/ru.js
+#	new file:   components/moment/locale/si.js
+#	new file:   components/moment/locale/sk.js
+#	new file:   components/moment/locale/sl.js
+#	new file:   components/moment/locale/sq.js
+#	new file:   components/moment/locale/sr-cyrl.js
+#	new file:   components/moment/locale/sr.js
+#	new file:   components/moment/locale/sv.js
+#	new file:   components/moment/locale/ta.js
+#	new file:   components/moment/locale/th.js
+#	new file:   components/moment/locale/tl-ph.js
+#	new file:   components/moment/locale/tr.js
+#	new file:   components/moment/locale/tzl.js
+#	new file:   components/moment/locale/tzm-latn.js
+#	new file:   components/moment/locale/tzm.js
+#	new file:   components/moment/locale/uk.js
+#	new file:   components/moment/locale/uz.js
+#	new file:   components/moment/locale/vi.js
+#	new file:   components/moment/locale/zh-cn.js
+#	new file:   components/moment/locale/zh-tw.js
+#	new file:   components/moment/min/locales.js
+#	new file:   components/moment/min/locales.min.js
+#	new file:   components/moment/min/moment-with-locales.js
+#	new file:   components/moment/min/moment-with-locales.min.js
+#	new file:   components/moment/min/moment.min.js
+#	new file:   components/moment/min/tests.js
+#	new file:   components/moment/moment-built.js
+#	new file:   components/moment/moment.js
+#	new file:   components/require-built.js
+#	new file:   components/require.config.js
+#	new file:   components/require.css
+#	new file:   components/require.js
+#	modified:   composer.json
+#	modified:   composer.lock
+#	modified:   config/app.php
+#	new file:   config/confer.php
+#	modified:   config/services.php
+#	modified:   database/migrations/2014_10_12_000000_create_users_table.php
+#	new file:   database/migrations/2015_04_16_002803_create_confer_conversations_table.php
+#	new file:   database/migrations/2015_04_16_003150_create_confer_conversation_participants_table.php
+#	new file:   database/migrations/2015_04_17_004217_create_confer_messages_table.php
+#	new file:   database/seeds/ConferSeeder.php
+#	modified:   database/seeds/DatabaseSeeder.php
+#	new file:   fonts/glyphicons-halflings-regular.eot
+#	new file:   fonts/glyphicons-halflings-regular.svg
+#	new file:   fonts/glyphicons-halflings-regular.woff
+#	new file:   fonts/glyphicons-halflings-regular.woff2
+#	new file:   public/vendor/confer/css/confer.css
+#	new file:   public/vendor/confer/img/avatars/Confer-default-global.png
+#	new file:   public/vendor/confer/img/avatars/avatar-group-old.png
+#	new file:   public/vendor/confer/img/avatars/avatar-group.png
+#	new file:   public/vendor/confer/img/confer-message.svg
+#	new file:   public/vendor/confer/img/puff.svg
+#	new file:   public/vendor/confer/js/confer.js
+#	modified:   resources/views/app.blade.php
+#	modified:   resources/views/dota2.blade.php
+#	new file:   resources/views/index.blade.php
+#	new file:   resources/views/live.blade.php
+#	new file:   resources/views/vendor/confer/barconversationlist.blade.php
+#	new file:   resources/views/vendor/confer/confer.blade.php
+#	new file:   resources/views/vendor/confer/conversation.blade.php
+#	new file:   resources/views/vendor/confer/conversationlist.blade.php
+#	new file:   resources/views/vendor/confer/invite.blade.php
+#	new file:   resources/views/vendor/confer/js.blade.php
+#	new file:   resources/views/vendor/confer/settings.blade.php
+#	new file:   resources/views/vendor/confer/test.blade.php
+#	new file:   resources/views/vendor/confer/userlist.blade.php
+#	modified:   resources/views/welcome.blade.php
+#	modified:   week.txt
+#
+
